@@ -1,70 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
-    margin: 0;
-    background-color: #FFE69A;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+nav{
+    background-color: #666666;
 
-.login-btn{
-    position: relative;
-    top: 100px;
-    left: 600px;
-    margin-bottom: 10px;
+}
 
-    background-color: black;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
-    font-size: 1.2rem;
+ul{
+    text-decoration: none;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    position: fixed;
+    top:0;
+    width: 100%;
+
+}
+
+li{
+    float: left;
+    border-right: 1px solid #bbb;
+
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color:white;
     
 
-
-    letter-spacing: 2.2px;
-    font-family: 'Roboto', sans-serif;
-}
- 
-
-.head-text{
-    font-size: 1.3rem;
-}
-label{
-  display: block;
-  margin: 20px 0;
 }
 
-.input-text{
-    padding: 20px;
-    border-radius: 3px;
-    border: unset;
-    width: 420px;
-    margin: 10px 0;
-
- 
-}
-.container{
-   
-    margin: 100px 400px;
-    background-color: #fff;
-    padding: 48px;
-    width: 500px;
-    /* box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px; */
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    border-radius: 4px;
+li a:hover{
+    background-color: #bbb;
 
 }
-
-
-.login-sub{
-   display: block;
-   border: none;
-   background-color: black;
-   color: white;
-   font-size: 14px;
-   padding: 20px 40px;
-   letter-spacing: 1px;
-   cursor: pointer;
-
-
-
+li a:active{
+    background-color: #554040;
 }
